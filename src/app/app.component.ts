@@ -38,9 +38,9 @@ export class AppComponent {
 
   checkLight() {
     if (this.light === true) {
-      return '#eee';
+      return 'Gold';
     } else {
-      return 'Gold'
+      return '#ccc'
     }
   }
 }
